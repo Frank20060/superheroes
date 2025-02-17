@@ -5,6 +5,7 @@ body{
     justify-content: center;
     height: 100vh;
     flex-direction: column;
+    font-family: Poppins;
 }
 
 
@@ -14,6 +15,7 @@ body{
     padding: 20px;
     display: flex;
     gap: 10px;
+    margin: 50px;
 
 }
 .tarjeta{
@@ -35,4 +37,12 @@ body{
     align-items: center;
     justify-content: center;
 
+}
+
+.formulario form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    padding: 10px;
 }
